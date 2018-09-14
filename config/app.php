@@ -53,6 +53,8 @@ return [
     */
 
     'providers' => [
+        Weidner\Goutte\GoutteServiceProvider::class,
+
         App\Providers\AppServiceProvider::class,
     ],
 
